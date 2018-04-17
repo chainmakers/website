@@ -13,7 +13,7 @@ title = "Chainmakers - Chain the world."
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Creating blockchains for everyone"
-  description = "Lovingly hand-crafted by the fine folks at [FreeHTML5.co](http://freehtml5.co/)"
+  description = "Powered by the [Komodo Platform](www.komodoplatform.com)"
 
 # Navigation section
 [params.nav]
@@ -22,14 +22,14 @@ title = "Chainmakers - Chain the world."
   team = "The Team"
   contact = "Get In Touch"
   # Include logo instead if HOME:
-  # logo = "path/to/logo"
+  logo = "images/ca-horizontal.png"
 
 # Mission section
 [params.mission]
   enable = true
 
   [params.mission.images]
-    enable = true
+   enable = false
 
     [[params.mission.images.list]]
       img = "images/img_3.jpg"
@@ -42,15 +42,15 @@ title = "Chainmakers - Chain the world."
 
   [[params.mission.item]]
     weight = 1
-    name = "marketing"
-    title = "Marketing"
-    subtitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptate laborum sapiente officiis molestiaea."
-    description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid aperiam eveniet officia molestiae temporibus beatae dolores dignissimos aspernatur eius doloremque ad, eaque pariatur, repellendus illum, nostrum velit necessitatibus molestias.</p><ul class='checked'><li>Web Development</li><li>User Interface Experts</li><li>Pixel Perfect Design</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    name = "why"
+    title = "Why"
+    subtitle = "Chainmakers wants to spread the good news of Komodo Assetchains"
+    description = "<p>Something here.</p><ul class='checked'><li>Highly customizable</li><li>Expert support</li><li>dICO proof</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
-    name = "analysis"
-    title = "Resources"
+    name = "how"
+    title = "How"
     subtitle = "Quam quasi illum expedita dicta nemo fugit reprehenderit similique! Corporis praesentium magnam sequi."
     description = "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla explicabo, molestiae eaque fugiat dolores est esse, doloremque placeat assumenda corrupti officia dolorum. Sunt saepe ut, explicabo consectetur, nostrum illo est.</p><ul class='checked'><li>Free HTML5 Templates</li><li>Free Bootstrap Templates</li><li>Free HTML5 Bootstrap Templates</li></ul><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
@@ -64,30 +64,30 @@ title = "Chainmakers - Chain the world."
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
-  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  description = "Chainmakers provides help and support for anyone in need of a full-fledged blockchain."
 
   [[params.services.item]]
     icon = "icon-present"
-    title = "Web Development"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Electrum SPV"
+    description = "Every assetchain comes with Electrum SPV support enabled. This helps people do transactions without having to install and synchronize your blockchain."
 
   [[params.services.item]]
     icon = "icon-eye"
-    title = "Retina Ready"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Insight Explorer"
+    description = "Since every Assetchain is Bitcore supported out-of-the-box,  solid Insight Explorer is delivered."
 
   [[params.services.item]]
     icon = "icon-paper-plane"
     title = "Light Speed"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    description = "No need to be dependent on any other blockchain, you have access to use your own blockchain, still within the Komodo Ecosystem."
 
   [[params.services.item]]
     icon = "icon-pencil"
-    title = "Copyrighting"
-    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+    title = "Smart Contracts"
+    description = "Every new assetchain comes with Crypto Conditions support. This means every assetchain has the possibility for implementing Simple Contracts."
 
   [[params.services.item]]
     icon = "icon-rocket"
